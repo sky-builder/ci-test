@@ -1,0 +1,23 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "play with ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TorikoC/ci-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TorikoC/ci-test/issues"
+  },
+  "homepage": "https://github.com/TorikoC/ci-test#readme",
+  "devDependencies": {
+    "jshint": "^2.10.1"
+  }
+}
