@@ -7,9 +7,7 @@ env:
     - 'SFTP_PASSWORD=XwinterX1109!'
 
 after_success:
-- curl --ftp-create-dirs 
-        -T hello.js 
-        sftp://${SFTP_USER}:${SFTP_PASSWORD}@47.240.43.254:22/~/hello.js
+- curl  -k "sftp://47.240.43.254:22/" --user "root:XwinterX1109!" -T "hello.js" --ftp-create-dirs
 
 notifications:
   email:
