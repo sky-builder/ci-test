@@ -4,7 +4,7 @@ node_js:
 notifications:
   email:
     recipients:
-      breakthroughtgw@gmail.com
-      3509687977@qq.com
+      - breakthroughtgw@gmail.com
+      - 3509687977@qq.com
     on_success: always
     on_failure: always
