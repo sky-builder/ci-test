@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - 'node'
+notifications:
+  email:
+    recipients:
+      breakthroughtgw@gmail.com
+      3509687977@qq.com
+    on_success: always
+    on_failure: always
