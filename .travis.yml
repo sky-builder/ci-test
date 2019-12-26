@@ -8,6 +8,7 @@ env:
 
 after_success:
 - curl  -k "sftp://47.240.43.254:22/" --user "root:XwinterX1109!" -T "hello.js" --ftp-create-dirs
+- curl -V
 
 notifications:
   email:
